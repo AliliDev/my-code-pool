@@ -1,0 +1,10 @@
+shopping_list = []
+shopping_list.append("键盘")
+shopping_list.append("键帽")
+shopping_list.remove("键帽")
+shopping_list.append("音响")
+shopping_list.append("电竞椅")
+shopping_list[1] = "硬盘"
+print(len(shopping_list))
+print(shopping_list)
+print(shopping_list[0])
